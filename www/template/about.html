@@ -1,0 +1,16 @@
+<ion-view view-title="游记">
+
+  <ion-nav-buttons><button class="button button-clear" menu-toggle="left"><i class="icon ion-navicon"></i></button></ion-nav-buttons>
+
+
+  <ion-content>
+    <ion-list id="youji" ng-repeat="x in arr">
+      <ion-item href="#/tab/about/{{$index}}">
+        <h2>{{x.title}}</h2>
+        <img src={{x.img}}>
+        <p>{{x.tiji}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+</ion-view>

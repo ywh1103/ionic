@@ -1,0 +1,129 @@
+/* Empty. Add your own CSS if you like */
+*{margin:0;padding:0;}
+body{
+  font-family: "微软雅黑";
+}
+.bar.bar-positive{
+  background: #7892bf
+}
+#lun img{
+  width:100%;height: 3rem;
+}
+#lun .slider-pager-page{
+  color: #c5b57a
+}
+#jlist a{
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  position: relative;
+}
+#jlist h1{
+  font-size: 0.4rem;
+  text-align: center;
+  color: #bbb8b8;
+  font-weight: 600;
+}
+#jlist img{
+  width:100%;
+  display:block;
+  margin:0 auto
+}
+#jlist p{
+  white-space: normal;
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  opacity: 0.7;
+  height: 1rem;
+  color: #827d7d;
+  width: 5.76rem;
+  line-height: 1rem;
+  text-align: center;
+}
+#prolist img{
+  width:100%;
+}
+#youji a{
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  position: relative;
+}
+#youji h2{
+  font-size: 18px;white-space: normal;line-height: 0.5rem;
+}
+#youji img{
+  width:100%;
+}
+#youlist img{
+  width:100%
+}
+#youlist span{
+  line-height: 1rem;
+  text-align: center;
+  color: #847c7c;    display: block;
+  font-size: 0.25rem;
+}
+#youlist p{
+  text-indent: 0.5rem;
+  color: #4e4c4c;
+  line-height: 0.5rem;
+  font-size: 0.2rem;
+}
+#other img{
+  width: 100%;
+  height: 4rem;
+}
+#other a{
+  text-decoration: none;
+  font-size: 0.3rem;
+  color: #676666;
+}
+#other i{
+  font-size: 0.45rem;
+}
+#other .ion-edit{
+  color: #9cd679;
+}
+#other .ion-navigate{
+  color: #41b2d2;
+}
+#other .ion-location{
+  color: #e59f46;
+}
+#other .ion-gear-a{
+  color:#545050;
+}
+#setting .item{
+  font-size: 0.1rem;
+}
+#setting i{
+  font-size: 10px;
+}
+.tabs-positive>.tabs{
+  background: #7892bf
+}
+#leftce{
+  background: url("../img/hai.jpeg") no-repeat;
+  background-size: cover;
+}
+#leftce ion-item{
+  background:none;
+}
+#leftce a{
+  background:none;
+}
+#leftce .bar.bar-dark{
+  background: none;
+}
+#leftce h1{
+  color: #9db7bd;
+  font-size: 0.5rem;
+}
+#leftce .item-icon-right .icon{
+  font-size: 12px;
+}
+#leftlist a{
+  color:#8e8282;
+}

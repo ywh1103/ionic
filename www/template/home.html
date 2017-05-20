@@ -1,0 +1,41 @@
+<ion-view view-title="介绍">
+
+  <ion-nav-buttons><button class="button button-clear" menu-toggle="left"><i class="icon ion-navicon"></i></button></ion-nav-buttons>
+
+  <ion-content>
+
+
+    <ion-slide-box id="lun" does-continue="true" auto-play="true" slide-interval="4000">
+      <ion-slide>
+        <div class="box blue">
+          <img src="https://dimg01.c-ctrip.com/images/tg/757/378/201/20b31c3dfc704fe4a9a25d452ea6cace_C_770_370.jpg">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box yellow">
+          <img src="https://dimg06.c-ctrip.com/images/fd/tg/g3/M07/01/AD/CggYGVXdMjCAYC76AE_wQZoMows816_C_770_370.jpg">
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box pink">
+          <img src="https://dimg05.c-ctrip.com/images/tg/306/480/744/9277bb32f2e549a580550204431b0a54_C_770_370.jpg">
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+
+    <ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()"></ion-refresher>
+
+    <ion-list ng-repeat="x in arr" id="jlist">
+      <ion-item href="#/tab/home/{{$index}}">
+        <h1>------{{x.name}}------</h1>
+        <img src={{x.img}}>
+        <p>{{x.title}}</p>
+      </ion-item>
+    </ion-list>
+
+    <ion-infinite-scroll on-infinite="loadMore()" distance="-10%">
+    </ion-infinite-scroll>
+
+  </ion-content>
+
+</ion-view>
